@@ -22,10 +22,6 @@ composer.lock
 *.swo
 
 # Project Specific
-/packages/local-client
-/packages/cli/node_modules
-/packages/local-api/node_modules
-/node_modules
 *.log
 /lib
 tmp
@@ -36,6 +32,9 @@ coverage/
 .env
 
 dist
+build
+node_modules
+local-client
 
 website/build
 website/.docusaurus
