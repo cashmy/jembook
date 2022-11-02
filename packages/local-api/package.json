@@ -1,6 +1,6 @@
 {
   "name": "@jembook/local-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express server for JEmBook",
   "publishConfig": {
     "access": "public"
