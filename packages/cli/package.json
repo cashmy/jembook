@@ -1,6 +1,6 @@
 {
   "name": "jembook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for JEmBook",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jembook/local-client": "^1.0.0"
+    "@jembook/local-client": "^1.0.1"
   },
   "devDependencies": {
-    "@jembook/local-api": "^1.0.0",
+    "@jembook/local-api": "^1.0.1",
     "@types/node": "^18.11.9",
     "commander": "^9.4.1",
     "esbuild": "0.8.26",
