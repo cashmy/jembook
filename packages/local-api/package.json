@@ -1,6 +1,6 @@
 {
   "name": "@jembook/local-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express server for JEmBook",
   "publishConfig": {
     "access": "public"
@@ -23,7 +23,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@jembook/local-client": "^1.0.1",
+    "@jembook/local-client": "^1.0.3",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6"
