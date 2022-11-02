@@ -1,6 +1,6 @@
 import path from 'path';
 import { Command } from 'commander';
-import { serve } from 'local-api';
+import { serve } from '@jembook/local-api';
 
 interface LocalApiError {
     code: string;
@@ -12,7 +12,7 @@ export const serveCommand = new Command()
     .command('serve [filename]')
     .description('Open a file for editing')
     .option('-p, --port <number>', 'port to run server on', '4005')
-    .action(async (filename = 'notebook.js', options: {port: string}) => {
+    .action(async (filename = 'notebook.js', options: { port: string }) => {
         const isLocalApiError = (err: any): err is LocalApiError => {
             return typeof err.code === 'string';
         };
@@ -30,5 +30,6 @@ export const serveCommand = new Command()
                     console.error("Error: ", err.message);
                 }
                 process.exit(1);
+            }
         }
     });

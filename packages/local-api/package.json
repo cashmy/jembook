@@ -1,7 +1,13 @@
 {
-  "name": "local-api",
+  "name": "@jembook/local-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express server for JEmBook",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -20,6 +26,6 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6",
-    "local-client": "^0.1.0"
+    "@jembook/local-client": "^0.1.0"
   }
 }

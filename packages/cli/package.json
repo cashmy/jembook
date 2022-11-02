@@ -1,7 +1,14 @@
 {
-  "name": "cli",
+  "name": "jembook",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI for JEmBook",
+  "bin": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput"
   },
@@ -10,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^9.4.1",
-    "local-api": "^1.0.0"
+    "@jembook/local-api": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
