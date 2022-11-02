@@ -34,7 +34,6 @@ coverage/
 dist
 build
 node_modules
-local-client
 
 website/build
 website/.docusaurus
