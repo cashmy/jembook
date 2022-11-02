@@ -1,6 +1,6 @@
 {
   "name": "jembook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI for JEmBook",
   "bin": "dist/index.js",
   "publishConfig": {
